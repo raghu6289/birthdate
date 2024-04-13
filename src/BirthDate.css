@@ -1,0 +1,246 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 600px;
+  height: 100vh;
+  border-radius: 45px;
+  margin: 0 auto;
+  background-color: #323436;
+  color: #fff;
+  padding: 20px;
+}
+
+.date-input:hover {
+  transform: scale(1.1);
+  transition-duration: 300ms;
+  cursor: pointer;
+}
+
+
+.date-input {
+  display: flex;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  padding: 5px;
+  background-color: #fff;
+  border: none;
+}
+
+.bday-container {
+  height: 8vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+}
+
+
+.bday-container {
+  height: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.bday-container span {
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+.bday-icon {
+  width: 75px;
+  height: 75px;
+  border-radius: 35px;
+  margin-top: 7px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 45%;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 2px solid #5e6165;
+
+}
+
+@media screen and (min-width: 769px) {
+  .next {
+    border-left: 2px solid #5e6165;
+  }
+}
+
+.current,
+.next {
+  width: 48%;
+  text-align: center;
+}
+
+.current label,
+.next label {
+  color: orangered;
+  font-size: 40px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.current label {
+  font-size: 55px;
+}
+
+.next-bday {
+  padding-top: 15px;
+}
+
+.current span,
+.next span {
+  font-size: 40px;
+  padding: 5px;
+}
+
+.next-bday span {
+  font-size: 20px;
+}
+
+.details {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.content {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+}
+
+
+.summary {
+  margin-top: 10px;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 30px;
+  color: orangered;
+}
+
+.content span {
+  font-size: 30px;
+}
+
+.content p {
+  font-size: 24px;
+}
+
+
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .date-input {
+    display: flex;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    padding: 18px;
+    background-color: #fff;
+    border: none;
+    color: black !important
+  }
+
+  .bday-container {
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 18px;
+  }
+
+  .bday-container span {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .bday-container {
+    margin: 15px;
+  }
+
+  .next-bday-title {
+    margin-top: 7px;
+  }
+
+  .content {
+    width: calc(50% - 20px);
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .current,
+  .next {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .current label,
+  .next label {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+
+  .current span,
+  .next span {
+    font-size: 30px;
+  }
+
+  .next-bday span {
+    font-size: 18px;
+  }
+
+  .next-bday-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px 0;
+  }
+
+  .current-container {
+    margin-top: 7px;
+  }
+
+  .content {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+  }
+
+  .content span {
+    font-size: 22px;
+  }
+
+  .content p {
+    font-size: 20px;
+  }
+}
